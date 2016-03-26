@@ -11,6 +11,7 @@ h1 {
     text-align: center;
     color: #40312F;
     margin: 30px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
 }
 
 .app {
@@ -30,9 +31,19 @@ h1 {
 
 @media screen and (max-width: 600px) {
 
+	.app {
+		margin: 20px auto;
+	}
+
+	h1 {
+		font-size: 70px;
+		margin: 20px;
+		text-align: left;
+	}
+
 	.clock {
 		width: 300px;
-		margin: 40px auto; 
+		margin: 20px auto 40px; 
 	}
 
 	.flip-clock-divider.minutes {
