@@ -2,13 +2,15 @@
 
 
 body { 
-	background-color: #F0EED6; 
+	background-color: #EB3B46; 
 	font-family: 'Slabo 27px', serif;
 }
 
 h1 {
 	font-size: 90px;
     text-align: center;
+    color: #40312F;
+    margin: 30px;
 }
 
 .app {
@@ -16,8 +18,8 @@ h1 {
 }
 
 .clock {
-	width: 650px;
-	margin: 0 auto;	 
+	width: 620px;
+	margin: 0 auto 50px;	 
 }
 
 .waze {
