@@ -1,17 +1,41 @@
-@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
-
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Delius);
 
 body { 
-	background-color: #EB3B46; 
-	font-family: 'Slabo 27px', serif;
+	background-color: #DAEDE2; 
+	margin: 0;
 }
 
 h1 {
+	font-family: 'Slabo 27px', serif;
 	font-size: 90px;
     text-align: center;
-    color: #40312F;
-    margin: 30px;
-    /*text-shadow: 1px 1px 1px rgba(0,0,0,1);*/
+    color: #EA2E49;
+    margin: 0;
+    text-shadow: inset 1px 1px 1px rgba(0,0,0,1);
+}
+
+h2 {
+	font-family: 'Delius', cursive;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0;
+	color: #77C4D3;
+	padding: 5px;
+}
+
+.a {
+	color: #644D52;
+	background: #FF974F;
+    padding: 0 10px;
+}
+
+
+.b {
+	color: #644D52;
+}
+
+.c {
+	color: #F77A52;
 }
 
 .app {
@@ -24,9 +48,22 @@ h1 {
 }
 
 .waze {
-	margin: 20px;
+	background: #EFEFEF;
+	width: 100%;
     text-align: center;
     display: block;
+    border-top: solid 1px #fff;
+    border-bottom: solid 2px #333745;
+}
+
+.flip-clock-wrapper ul li a div.up div.inn {
+	background: #333745;
+    color: #77C4D3;
+}
+
+.flip-clock-wrapper ul li a div.down div.inn {
+	background: #333745;
+    color: #77C4D3;
 }
 
 @media screen and (max-width: 600px) {
@@ -38,12 +75,8 @@ h1 {
 	h1 {
 		font-size: 72px;
 		line-height: 1.1;
-		margin: 20px;
-		text-align: left;
-		background: #FFD34E;
-    	width: 100%;
-    	padding-left: 20px;
-	    box-shadow: 0px 0px 2px rgba(0,0,0,1);
+		margin: 20px 20px 10px;
+		text-align: center;
 	}
 
 	.clock {
