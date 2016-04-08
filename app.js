@@ -1,7 +1,7 @@
 
 
 var now = moment(new Date());
-var end = moment('04/10/2016 07:30 PM');
+var end = moment('04/10/2016 08:00 PM');
 var duration = moment.duration(now.diff(end));
 var days = Math.abs(duration.asDays());
 var hours = Math.abs(duration.asHours());
