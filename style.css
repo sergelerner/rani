@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px|Delius);
 
 body { 
-	background-color: #DAEDE2; 
+	background-color: #fefefe; 
 	margin: 0;
 }
 
@@ -9,7 +9,7 @@ h1 {
 	font-family: 'Slabo 27px', serif;
 	font-size: 90px;
     text-align: center;
-    color: #EA2E49;
+    color: #3695C3;
     margin: 0;
     text-shadow: inset 1px 1px 1px rgba(0,0,0,1);
 }
@@ -19,23 +19,27 @@ h2 {
 	font-size: 40px;
 	text-align: center;
 	margin-top: 0;
-	color: #77C4D3;
 	padding: 5px;
 }
 
+h1 .and {
+	color: silver;
+}
+
 .a {
-	color: #644D52;
-	background: #FF974F;
+	color: #2D7DA5;
+	background: #FFD1E0;
     padding: 0 10px;
+    padding-left: 12px;
 }
 
 
 .b {
-	color: #644D52;
+	color: #444F71;
 }
 
 .c {
-	color: #F77A52;
+	color: #2D7DA5;
 }
 
 .app {
@@ -53,7 +57,7 @@ h2 {
     text-align: center;
     display: block;
     border-top: solid 1px #fff;
-    border-bottom: solid 2px #333745;
+    border-bottom: solid 2px #2D7DA5;
 }
 
 .flip-clock-wrapper ul li a div.up div.inn {
